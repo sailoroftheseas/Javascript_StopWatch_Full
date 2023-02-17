@@ -2,12 +2,33 @@
 
 body{
   font-family: 'Noto Sans Mono', monospace;
-  background-color: #292642;
+  background-color: #264239;
   color: #ddd9fc;
 }
 
+h1{
+
+  background-color: #00cc3d;
+  padding: 4px;
+  border-radius: 5px;
+  box-shadow: 5px 0px 50px 1px limegreen;
+  color: black;
+
+}
+
+
+h2 {
+  background-color: aquamarine;
+  border-radius: 5px;
+  padding: 1px;
+  box-shadow: 5px 0px 50px 1px limegreen;
+  color: black;
+  text-align: center;
+
+}
+
 button{
-  background-color:#bcb5ff;
+  background-color:#00cc3d;
   border:none;
   border-radius:8px;
   text-decoration: none;
@@ -17,9 +38,9 @@ button{
 }
 
 button:hover{
-  background-color:#8f86eb;
-  color:#b3adee;
-  box-shadow: 2px 4px;
+  background-color:#17d651;
+  color:#86eba4;
+  box-shadow: 4px 8px;
 }
 
 .wrapper{ 
@@ -33,7 +54,16 @@ button:hover{
   justify-content:space-between;
   align-items:center;
   
-  border: 3px ridge #bcb5ff; 
+  border: #00cc3d; 
+  border-width: 5px;
+  border-top-style: dashed;
+  border-top-color: aqua;
+  border-bottom-style: groove;
+  border-bottom-color: #09ff4f;
+  border-right-style:double;
+  border-right-color: aquamarine;
+  border-left-style: dotted;
+  border-left-color: 02611e;
   border-radius:1rem; 
   width: 30%;
 
