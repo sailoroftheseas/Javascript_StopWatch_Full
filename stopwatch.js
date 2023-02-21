@@ -9,7 +9,7 @@ window.onload =
   let appendTens = document.getElementById("tens");
   let appendSeconds = document.getElementById("seconds");
   let appendMins = document.getElementById("minutes");
-  let appendHours = document.getAnimations("hours");
+  let appendHours = document.getElementById("hours");
   
   let buttonStart = document.getElementById("button-start");
   let buttonStop = document.getElementById("button-stop");
@@ -36,6 +36,7 @@ window.onload =
     appendTens.innerHTML = tens;
     appendSeconds.innerHTML = seconds;
     appendMins.innerHTML = mins;
+    appendHours.innerHTML = hours
   }
   
   function startTimer(){
